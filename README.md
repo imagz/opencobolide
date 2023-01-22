@@ -1,7 +1,7 @@
 # How to Install OpenCobolIDE (4.7.6) on macOS latest version
 <br>
 
-NOTE: If you tried to install OpenCobolIDE or the Cobol compiler with Homebrew or have Homebrew or Python installed in your computer it is recommended to uninstall both to prevent any issues unless you are an advanced user and know how to have two versions of homebrew or multiple version of Python. Also before uninstalling Homebrew and Python I recommend uninstalling any program that are OpenCobolIDE dependecies because depending on the command used to install the programs it can cause issues and some programs stay installed somehow even if Python and Homebrew is uninstalled. I recommend uninstalling the following programs in the order listed.
+NOTE: If you tried to install OpenCobolIDE or the Cobol compiler with Homebrew or have Homebrew or Python installed in your computer it is recommended to uninstall both to prevent any issues unless you are an advanced user and know how to have two versions of Homebrew or multiple version of Python. Also before uninstalling Homebrew and Python I recommend uninstalling any program that are OpenCobolIDE dependecies because depending on the command used to install the programs it can cause issues and some programs stay installed somehow even if Python and Homebrew is uninstalled. I recommend uninstalling the following programs in the order listed.
 
 <br>
 
