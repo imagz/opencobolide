@@ -1,32 +1,37 @@
-### 1. Search the Terminal app in Finder
-- Open Finder
-- Select the Application tab
-- Open macOS default 'Utilities' folder 
+# How to Install OpenCobolIDE (4.7.6) on macOS latest version 
+
+### 1. Search the Terminal app in Finder.
+- Open 'Finder' app.
+- Select the 'Application' tab.
+- Open macOS default 'Utilities' folder.
 
 or
+- Click on 'Go' on the menu bar.
+- Select Utilities.
 
-- Click on 'Go' on the menu bar
-- Select Utilities
+<br>
 
-### 2. Select the 'Terminal' app
+### 2. Select the 'Terminal' app.
 <br> 
 
 ### 3. Secondary Click on the 'Terminal' app.
 <br>
+Depending on how you have the Secondary Click settings setup if you even have it set it up at all might be use in a different way. If 'Right Click' option is selected on the mouse settings you need to right click or if you are using a trackpad and have 'Click in bottom right corner' or 'Click in bottom left corner' option selected you need to press the trackpad in the place it says in the option that is selected to Secondary Click. If you have not set any of that by default the option of 'Click with two fingers' is selected that means you need to click with two fingers at the same time to Secondary Click.<br>
 
-Depending on how you have the Secondary Click
-setup you might have 'Click with two fingers' or 'Right Click' option selected on the mouse settings or if you are using a trackpad 'Click with two fingers', 'Click in bottom right corner' or 'Click in bottom left corner' option selected. If you haven't set any of that by default the option to click with two fingers is selected to get more settings within a file.<br>
+<br>
 
-### 4. Select Get Info
+### 4. Select 'Get Info'.
 <br>
 
 ### 5. After the 'Terminal Info' window has open select the check box 'Open using Rosetta'
-
+<br>
 <p>Rosetta enable Macs with Apple Silicon processor to use programs made for Macs with Intel processor.
 <p>If you skip this steps OpenCobolIDE will not detect automatically cobol compiler and if you want the latest version of OpenCobolIDE (4.7.6) you will have problem installing it and its dependecies.
 <p>The reason that it does not detect the compiler is because when homebrew is install without having Rosetta enable on 'Terminal' it will be install on another directory `opt/bin/homebrew`, which the compiler will also be, instead of 'usr/local/bin' which OpenCobolIDE is set by default to detect.
 <p>If you are an advanced user you might have an idea on how to have installed and use two versions of homebrew if you have a lot of homebrew programs installed for other things which uninstalling could break and uninstall other programs or there is a specific reason two have both but if you are not an advanced user is better to uninstall homebrew and any other program that you might have installed with homebrew and install it again with Rosetta enable on 'Terminal' to prevent any issues.
-
+  
+<br>
+  
 ### 6. Close 'Terminal Info' window.
 <br>
 
